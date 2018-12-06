@@ -21,7 +21,7 @@ public class Hashtable{
 
     public Hashtable(){
         this.size = 0;
-        this.numBuckets = 314527; //initial size- to be passed as initial capacity of arraylist
+        this.numBuckets = 314527;
         this.buckets = new ArrayList<>();
 
         for (int i = 0; i < numBuckets; i++)
