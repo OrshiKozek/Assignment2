@@ -103,7 +103,7 @@ public class Assignment2Test {
 	
 	
 	public long timingTest() {
-		File file = new File("src/web2");
+		File file = new File("web2");
 		BufferedReader reader = null;
 		ArrayList<String> lookingFor = new ArrayList<String>();
 		Random random = new Random();
