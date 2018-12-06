@@ -3,10 +3,9 @@ import java.lang.Math;
 
 public class Hashtable{
 
-    //hashcode() % lengthOfList = index
     private int size;
-    private int numBuckets; //= 10; //initial size
-    private ArrayList<Hashnode> buckets; //= new ArrayList<>(numBuckets); //initial capacity is 10
+    private int numBuckets;
+    private ArrayList<Hashnode> buckets;
 
     public class Hashnode {
         private String key;
